@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: Lato;
+    font-size: 16px;
+    color: #4c4c4c;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* Header */
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: 8px;
+}
+
+/* Nav */
+.nav__link {
+    display: inline-block;
+    font-family: Gentium Book Basic;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    margin: 45px 25px;
+    position: relative;
+}
+
+.nav__link:last-child {
+    margin-left: 1px;
+}
+
+.nav__link:before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+
+    background: #c8c5bb;
+    top: -45px;
+    position: absolute;
+    display: none;
+}
+
+.nav__link:hover:before {
+    display: block;
+}
+
+.nav__icon {
+    display: inline-block;
+    color: #dab33e;
+    margin: 0 5px;
+}
+.nav__icon img {
+    margin-bottom: -4px;
+}
+
+
+
+/* Inrto */
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../images/intro/intro.jpg") center no-repeat;
+    background-size: cover;
+
+    position: relative;
+    
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    font-family: Yeseva One;
+    font-size: 90px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.img__intro_decoration {
+    margin-top: 25px;
+    margin-bottom: 45px
+}
+
+/* Button */
+.btn {
+    font-family: Lato;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #0f0f10;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 45px;
+    margin: 0 15px;
+}
+
+.btn:hover {
+    background-color: rgba(243, 237, 237, 0.3);
+    border: 1px solid #d4cfba;
+}
+
+/* Food */
+.section--food {
+    background: url("../images/food/food-bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.food__inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+/* Description */
+.section__description {
+    width: 100%;
+    max-width: 409px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.description__title {
+    font-family: Yeseva One;
+    font-size: 36px;
+    font-weight: 400;
+    color: #cc9900;
+    margin-bottom: 10px;
+}
+
+.description__text {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+.food__cook {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+
+/* Ingredients */
+.section--ingredients {
+    background: url("../images/ingredients/ingredients-bg.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+.ingredients__inner {
+    display: flex;
+    width: 100%;
+    max-width: 570px;
+    height: auto;
+    background: url("../images/ingredients/text-bg.png") center no-repeat;
+    background-size: cover;
+    margin-right: 0;
+}
+
+.section__description--ingredients {
+    padding-top: 75px;
+}
+
+.description__text--ingredients {
+    text-align: left;
+}
+
+.description__title--ingredients,
+.description__text--ingredients {
+    color: #fff;
+}
+
+.img__ingredients {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 15px;
+}
+
+/* Menu */
+.menu {
+    width: 100%;
+    background: url("../images/menu/background.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.menu__inner {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu__col {
+    margin: 100px 0;    
+}
+
+.menu__item {
+    display: block;
+    text-align: center;
+    width: 100%;
+    width: 430px;
+}
+
+.sub__item {
+    display: flex;
+    justify-content: space-between;
+    font-family: Yeseva One;
+    font-size: 21px;
+    font-weight: 400;
+    color: #c89f2d;
+}
+
+.item {
+    
+}
