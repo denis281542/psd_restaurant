@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .description__text {
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.5;
     margin-top: 20px;
 }
 
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .menu__col {
-    margin: 100px 0;    
+    margin: 50px 0;    
 }
 
 .menu__item {
@@ -242,6 +242,14 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     width: 100%;
     width: 430px;
+}
+
+.description__title--menu {
+    margin-top: 50px;
+}
+
+.menu__categories {
+    padding: 10px 12px; 
 }
 
 .sub__item {
@@ -253,6 +261,148 @@ h1, h2, h3, h4, h5, h6, p {
     color: #c89f2d;
 }
 
-.item {
-    
+.menu__categories--special {
+    border: 1px solid #e4dab7;
+   
+}  
+
+.description__text--menu {
+    text-align-last: left;
+    margin-top: 0;
+    line-height: 1;
 }
+
+.description__text--menu:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e3d5ab;
+    margin: 10px auto;
+}
+
+
+/* Reviews */
+.section--reviews {
+    background: url("../images/Reviews/reviews-bg.jpg") center no-repeat;
+    background-size: cover; 
+}
+
+.reviews__inner {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    display: flex;
+}
+
+.reviews {
+    width: 770px;
+    height: 557px;
+    background: url("../images/ingredients/text-bg.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.section__description--reviews {
+
+  
+}
+
+.description__title--reviews  {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.description__text--reviews {
+    font-family: Gentium Book Basic;
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    width: 610px;
+    color: #dde0df;
+}
+
+.reviews__signature {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* Reservations */
+.section__reservations {
+    background: url("../images/menu/background.jpg") center no-repeat;
+    background-size: cover; 
+}
+
+.reservations__inner {
+    width: 1100px;
+    height: 508px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.description__text--sub {
+    margin-top: 10px;
+}
+
+.input__item {
+    display: flex;
+}
+
+.input__title {
+    top: 0;
+    left: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+}
+.footer__inner {
+    display: flex;
+}
+
+.footer__col {
+    width: 33%;
+}
+
+.footer__logo {
+    margin: 15px auto;
+}
+
+.description__title--footer {
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.description__text--footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.payment {
+    margin-top: 50px;
+    color: #fff;
+    display: block;
+}
+
+.payment a {
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.location__footer a {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+}
+
+
