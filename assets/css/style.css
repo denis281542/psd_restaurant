@@ -157,8 +157,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Description */
 .section__description {
-    width: 100%;
-    max-width: 409px;
+    width: 530px;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -175,7 +174,8 @@ h1, h2, h3, h4, h5, h6, p {
 .description__text {
     font-size: 16px;
     line-height: 1.5;
-    margin-top: 20px;
+    margin: 20px auto 0;
+    width: 420px;
 }
 
 .food__cook {
@@ -303,11 +303,6 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
-.section__description--reviews {
-
-  
-}
-
 .description__title--reviews  {
     margin-top: 80px;
     color: #fff;
@@ -337,22 +332,69 @@ h1, h2, h3, h4, h5, h6, p {
 
 .reservations__inner {
     width: 1100px;
-    height: 508px;
     margin: 0 auto;
     display: flex;
+    padding: 100px 0;
+}
+
+.reservations__img {
+    display: flex;
+    width: 570px;
+    justify-content: space-around;
+}
+
+.reservations__text {
+    width: 530px;
 }
 
 .description__text--sub {
     margin-top: 10px;
 }
 
-.input__item {
-    display: flex;
+.subcribe {
+    margin-top: 45px;
 }
 
-.input__title {
-    top: 0;
-    left: 0;
+.subcribe__input {
+    display: inline-block;
+    position: relative;
+}
+.subcribe__input img {
+    position: absolute;
+    top: 36px;
+    right: 40px;
+}
+
+.label {
+    font-family: 'Open Sans';
+    font-weight: Bold;
+    font-size: 14px;
+    color: #c9a131;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-right: 30px;
+}
+
+input {
+    width: 200px;
+    margin-top: 5px;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #c8c6c6;
+    font-style: italic;
+}
+
+input,
+label {
+    display: block;
+}
+
+form button {
+    margin-top: 6px;
+    background-color: #c9a131;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    width: 200px;
 }
 
 /* Footer */

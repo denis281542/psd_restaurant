@@ -296,12 +296,46 @@
                         Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.
                     </p>
                     
-                    <form class="subcribe" action="/" method="post">
-                        <div class="input__item">
-                            <div class="input__title">Name</div>
-                            <input class="subcribe__input" type="email" name="name" placeholder="Your Email...">
+                    <form class="subcribe" action="#" method="post">
+                        <div>
+                            <div class="subcribe__input">
+                                <label class="label">
+                                    Name<input type="text" 
+                                               placeholder="your name *"
+                                               id="name">
+                                </label>
+                            </div>
+                            
+                            <div class="subcribe__input">
+                                <label class="label">
+                                    Email<input type="email" 
+                                               placeholder="your email *"
+                                               id="email">
+                                </label>
+                            </div>
                         </div>
-                        <button class="subcribe__btn" type="submit">Subscribe</button>
+
+                        <div>
+                            <div class="subcribe__input">
+                                <img src="/assets/images/icon__date.png" alt="">
+
+                                <label class="label">
+                                    Date<input type="text" 
+                                               placeholder="date *"
+                                               id="date">
+                                </label>
+                            </div>
+                            
+                            <div class="subcribe__input">
+                                <label class="label">
+                                    Party number<input type="text" 
+                                               placeholder="party number *"
+                                               id="party">
+                                </label>
+                            </div>
+                        </div>                    
+                        
+                        <button type="submit">Book now!</button>
                     </form>
                 </div>
             </div>
