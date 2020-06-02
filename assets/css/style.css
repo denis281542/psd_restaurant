@@ -388,6 +388,14 @@ label {
     display: block;
 }
 
+.email-hint {
+    display: none;
+}
+
+.email-hint--active {
+    display: block;
+}
+
 form button {
     margin-top: 6px;
     background-color: #c9a131;
