@@ -14,16 +14,6 @@ const submitForm = (event) => {
   const number = event.target.querySelector("input[name=number]").value;
   const numberHint = event.target.querySelector(".number-hint");
 
-  const isValidDate = validateDate(date);
-  if (!isValidDate) {
-    dateHint.classList.add("date-hint--active");
-    return;
-  }
-  if (dateHint.classList.contains("date-hint--active")) {
-    dateHint.classList.remove("date-hint--active");
-  }
-  alert("Дата валидная! Можно отправить форму");
-
   const isValidName = validateName(name);
   if (!isValidName) {
     nameHint.classList.add("name-hint--active");
@@ -43,6 +33,16 @@ const submitForm = (event) => {
     emailHint.classList.remove("email-hint--active");
   }
   alert("Email валидный! Можно отправить форму");
+
+  const isValidDate = validateDate(date);
+  if (!isValidDate) {
+    dateHint.classList.add("date-hint--active");
+    return;
+  }
+  if (dateHint.classList.contains("date-hint--active")) {
+    dateHint.classList.remove("date-hint--active");
+  }
+  alert("Дата валидная! Можно отправить форму");
 
   const isValidNumber = validateNumber(number);
   if (!isValidNumber) {
@@ -74,6 +74,6 @@ function validateDate(date) {
 }
 
 function validateNumber(number) {
-  const re = /^[+]?\d+$/;
+  const re = /^[0-9]{1,2}$/;
   return re.test(number);
 }
