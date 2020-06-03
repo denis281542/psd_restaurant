@@ -306,14 +306,26 @@
                         <form class="subcribe" action="#" method="post" id="form">
                             <div>
                                 <div class="subcribe__input">
-                                    <label class="label">
-                                        Name<input type="text" placeholder="your name *" id="name">
+                                    <label class="label">Name
+                                        <input 
+                                            type="text"
+                                            name="name" 
+                                            placeholder="your name *" 
+                                            id="name"
+                                            required
+                                        />
+                                        <div class="name-hint">Некорректные данные</div>
                                     </label>
                                 </div>
 
                                 <div class="subcribe__input">
-                                    <label class="label">
-                                        Email<input class="input" type="email" placeholder="your email *" id="email">
+                                    <label class="label">Email
+                                        <input 
+                                            type="email" 
+                                            placeholder="your email *" 
+                                            id="email"
+                                            required
+                                        />
                                         <div class="email-hint">Некорректные данные</div>
                                     </label>
                                 </div>
@@ -323,14 +335,28 @@
                                 <div class="subcribe__input">
                                     <img src="/assets/images/icon__date.png" alt="">
 
-                                    <label class="label">
-                                        Date<input type="text" placeholder="date *" id="date">
+                                    <label class="label">Date
+                                        <input 
+                                            type="text" 
+                                            name="date"
+                                            placeholder="date *" 
+                                            id="date"
+                                            required
+                                        >
+                                            <div class="date-hint">Некорректные данные</div>
                                     </label>
                                 </div>
 
                                 <div class="subcribe__input">
-                                    <label class="label">
-                                        Party number<input type="text" placeholder="party number *" id="party">
+                                    <label class="label">Party number
+                                        <input 
+                                            type="text"
+                                            name="number"
+                                            placeholder="party number *" 
+                                            id="party"
+                                            required
+                                        >
+                                        <div class="number-hint">Некорректные данные</div>
                                     </label>
                                 </div>
                             </div>

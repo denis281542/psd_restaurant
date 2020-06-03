@@ -390,9 +390,41 @@ label {
 
 .email-hint {
     display: none;
+    color: red;
+    font-size: 11px;
 }
 
 .email-hint--active {
+    display: block;
+}
+
+.name-hint {
+    display: none;
+    color: red;
+    font-size: 11px;
+}
+
+.name-hint--active {
+    display: block;
+}
+
+.date-hint {
+    display: none;
+    color: red;
+    font-size: 11px;
+}
+
+.date-hint--active {
+    display: block;
+}
+
+.number-hint {
+    display: none;
+    color: red;
+    font-size: 11px;
+}
+
+.number-hint--active {
     display: block;
 }
 
