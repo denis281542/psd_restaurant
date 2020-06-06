@@ -77,3 +77,15 @@ function validateNumber(number) {
   const re = /^[0-9]{1,2}$/;
   return re.test(number);
 }
+
+
+//////////////////////*
+function rotate() {
+  var nav__toggle = document.getElementById("nav__toggle");
+  nav__toggle.setAttribute("class", "--active"); 
+};
+
+console.log(nav__toggle);
+
+
+
